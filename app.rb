@@ -23,4 +23,8 @@ class App < Sinatra::Base
     @full_phrase = phrases.join(" ")
     "#{@full_phrase}."
   end
+
+  get '/:operation/:number1/:number2' do
+    
+  end
 end
