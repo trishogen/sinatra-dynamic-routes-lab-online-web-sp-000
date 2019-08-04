@@ -31,7 +31,7 @@ class App < Sinatra::Base
 
     if operation == "add"
       total = num_1 + num_2
-    elsif opertation == "subtract"
+    elsif operation == "subtract"
       total = num_1 - num_2
     elsif operation == "multiply"
       total = num_1 * num_2
